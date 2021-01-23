@@ -123,7 +123,7 @@ a.dotted-link:hover {
 }
 
 .header .profile-content .name {
-  color: #49515a;
+  color: #acacac;
   font-size: 38px;
   margin-bottom: 5px;
   margin-top: 30px;
@@ -181,7 +181,7 @@ a.dotted-link:hover {
 .section .heading {
   margin-top: 0;
   margin-bottom: 30px;
-  color: #545e69;
+  color: #acacac;
   font-size: 24px;
 }
 
@@ -207,7 +207,7 @@ a.dotted-link:hover {
 }
 
 .latest .item .title a {
-  color: #778492;
+  color: rgb(158, 170, 184);
 }
 
 .latest .item .title a:hover {
@@ -402,7 +402,7 @@ a.dotted-link:hover {
 }
 
 .languages .item .title {
-  color: #778492;
+  color: #9eaab8;
 }
 
 .languages .item .level {
