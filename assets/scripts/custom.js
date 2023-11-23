@@ -12,11 +12,11 @@ function isLsSupported() {
 function switchTheme() {
     if(isLsSupported()) {
         var currentTheme = localStorage.currentTheme;
-        if(currentTheme === "default") {
-            localStorage.currentTheme = "dark";
-        }
-        else if(currentTheme === "dark") {
+        if(currentTheme === "dark") {
             localStorage.currentTheme = "default";
+        }
+        else if(currentTheme === "default") {
+            localStorage.currentTheme = "dark";
         }
         location.reload();
     }
